@@ -1,0 +1,3 @@
+/* GNU ld script */
+OUTPUT_FORMAT(elf32-littlearm)
+GROUP ( /home/robin/x-tools/armv7l-unknown-linux-gnueabihf/armv7l-unknown-linux-gnueabihf/sysroot/usr/lib/libc.so.6 /home/robin/x-tools/armv7l-unknown-linux-gnueabihf/armv7l-unknown-linux-gnueabihf/sysroot/usr/lib/libc_nonshared.a AS_NEEDED ( /home/robin/x-tools/armv7l-unknown-linux-gnueabihf/armv7l-unknown-linux-gnueabihf/sysroot/usr/lib/ld-linux-armhf.so.3 ) )

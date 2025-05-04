@@ -1,0 +1,9 @@
+prefix=/home/robin/x-tools/armv7l-unknown-linux-gnueabihf/armv7l-unknown-linux-gnueabihf/sysroot/usr
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: AWS-LC-libcrypto
+Description: AWS-LC cryptography library
+Version: 1.1.1
+Libs: -L${libdir} -lcrypto
+Cflags: -I${includedir}
